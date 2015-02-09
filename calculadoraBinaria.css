@@ -1,0 +1,51 @@
+table{
+    border-spacing:  20px;
+}
+
+td{
+    border: 5px solid black;
+    border-radius: 10px;
+    background-color: yellow;
+    font-size:50px;
+    border-radius: 10px;
+    transition: 1s linear, background-color ease 1s; 
+    
+}
+a:link {
+    text-decoration:none; 
+    color: black;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: blue;
+}
+
+#botones {
+    background-color: #e3a84f;
+    margin-left: 100px;
+    width: 150px;
+    height: 200px;
+    border-radius: 20px;
+    float:left;
+}
+
+td:hover {
+    transform:rotate(360deg);
+    background-color: gray;
+    font-size:60px;
+}
+
+#display {
+    background-color: green;
+    border-radius: 20px;
+    width: 5%;
+    height: 100px;
+    font-size: 100px;
+    margin-left: 5%;
+    margin-top: 5%;
+    float:left;
+}

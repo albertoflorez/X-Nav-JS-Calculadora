@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title> Calculadora Binaria: Ejercicio 5.5.10 DAT</title>
+        <link rel="stylesheet" type="text/css" href="calculadoraBinaria.css" title="style" />
+        <script src="calculadoraBinaria.js"></script>
+    </head>
+    <body>
+        <h1>CALCULADORA BINARIA</h1>
+         <ul>
+            <li>Pulsa en cualquiera de los números y se cambiará el display (zona verde).</li>
+            <li>Pulsa en + y se tomará el número que está en el display (zona verde) como primer operando.</li>
+            <li>Pulsa en = y se tomará el número que está en el display (zona verde) como segundo operando y el resultado aparecerá en este mismo display.</li>
+        </ul> 
+        <div id="botones">
+            <table>
+                <tr>
+                    <td><a href="javascript:changer('display',1)">1</a></td>
+                    <td><a href="javascript:sum()">+</a></td>
+                </tr>
+                <tr>
+                    <td><a href="javascript:changer('display',0)">0</a></td>
+                    <td><a href="javascript:solution()">=</a></td>
+                </tr>
+            </table>   
+        </div>   
+        <div id="display"></div>
+    </body>
+</html>
